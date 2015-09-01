@@ -1,0 +1,22 @@
+Circuit: * C:\users\demski\Mis Documentos\Documentos\UTN\Electronica Aplicada 1\Proyectos\EmisorComun.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Oct 19 18:18:26 2014
+Total elapsed time: 0.056 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4081
+traniter = 4074
+tranpoints = 2018
+accept = 2018
+rejected = 0
+matrix size = 12
+fillins = 0
+solver = Normal
+Matrix Compiler1: 624 bytes object code size  0.5/0.3/[0.3]
+Matrix Compiler2: 920 bytes object code size  0.3/0.3/[0.3]
+
+
