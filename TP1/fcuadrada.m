@@ -8,9 +8,11 @@ function y = fcuadrada(A,fc,tau,offset,N,fs)
 % y: cuadrada (output)
 
 
-
+    if fs<fc                                                            % en caso que sea fc mayor que fs voy a tomar que dio la vueta
+        fc = fc - fs;
+    end
     muestras_periodo = ceil(fs/fc);                                     % cantidad de muestras por periodo 
-    
+
     muestras_duty=ceil(tau*muestras_periodo);                           % cantidad de muestras que se mantiene en 1 (sin amplitud)
     
     muestras_noduty = floor((1-tau)*muestras_periodo);                  % cantidad de muestras que se mantiene en -1 (sin amplitud)
